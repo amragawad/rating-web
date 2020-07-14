@@ -8,8 +8,6 @@ var onError = function (err, req, res) {
   console.log('Error with webpack proxy :', err);
 };
 
-
-
 module.exports = {
   entry: './src/main.js',
   output: {
